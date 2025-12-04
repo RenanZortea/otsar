@@ -6,8 +6,8 @@
   "build": {
     "frontendDist": "../app/dist",
     "devUrl": "http://localhost:8080",
-    "beforeDevCommand": "trunk serve",
-    "beforeBuildCommand": "trunk build"
+    "beforeDevCommand": "trunk serve ../app/index.html",
+    "beforeBuildCommand": "trunk build ../app/index.html"
   },
   "app": {
     "windows": [

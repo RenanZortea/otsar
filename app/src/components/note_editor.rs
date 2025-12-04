@@ -1,5 +1,5 @@
-use core::parse_custom_syntax;
 use leptos::*;
+use shared::parse_custom_syntax;
 
 #[component]
 pub fn NoteEditor() -> impl IntoView {
