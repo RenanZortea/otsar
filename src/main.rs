@@ -1,10 +1,13 @@
+// src/main.rs
 mod app;
+mod components {
+    pub mod parser;
+}
 
 use app::*;
-use leptos::prelude::*;
+use leptos::*;
 
 fn main() {
-    console_error_panic_hook::set_once();
     mount_to_body(|| {
         view! {
             <App/>

@@ -6,6 +6,17 @@
     <link data-trunk rel="css" href="styles.css" />
     <link data-trunk rel="copy-dir" href="public" />
     <link data-trunk rel="rust" data-wasm-opt="z" />
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+
+    <script>
+      window.__unocss = {
+        presets: [
+          () => window.__unocss_runtime.presets.presetWind(),
+          () => window.__unocss_runtime.presets.presetIcons(),
+        ],
+      };
+    </script>
   </head>
+
   <body></body>
 </html>
